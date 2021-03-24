@@ -1,5 +1,3 @@
-![foto_1](https://user-images.githubusercontent.com/67983948/112389961-54e23b80-8cd4-11eb-8a06-43b3a41808aa.png)
-![foto_2](https://user-images.githubusercontent.com/67983948/112389985-5ad81c80-8cd4-11eb-8a92-5d57203a65a1.png)
 # Introduction
 
 This project is a code challenge for Jüssi in which my challenge was to replicate this landing page using nothing but React.
@@ -37,3 +35,9 @@ So theoretically, it is supposed to be redirected to another page when clicked.
 
 For this project specifically I left all the components inside the global components folder.
 However, if there were more pages, I would create a component folder for each page that contains the specific components used in that page. That way I would only leave the global components on the global component folder. In this particular case, I would leave the Footer, Header and Menu component in the global folder.
+
+## Images (responsive)
+
+![foto_1](https://user-images.githubusercontent.com/67983948/112389961-54e23b80-8cd4-11eb-8a06-43b3a41808aa.png)
+
+![foto_2](https://user-images.githubusercontent.com/67983948/112389985-5ad81c80-8cd4-11eb-8a92-5d57203a65a1.png)
