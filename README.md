@@ -26,7 +26,7 @@ Once you have all the dependencies installed, just run `yarn start` or `npm run 
 
 This project is 100% responsive and it works on every screen size from 300px wide to as much as you need.
 
-## Obs
+## Observation
 
 Some of the hrefs are referencing to # because there were no other places to redirect it to.
 So theoretically, it is supposed to be redirected to another page when clicked.
