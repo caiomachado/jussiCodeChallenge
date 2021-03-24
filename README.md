@@ -1,3 +1,4 @@
+![foto_3](https://user-images.githubusercontent.com/67983948/112390949-ddada700-8cd5-11eb-852b-73582791eba0.png)
 # Introduction
 
 This project is a code challenge for Jüssi in which my challenge was to replicate this landing page using nothing but React.
