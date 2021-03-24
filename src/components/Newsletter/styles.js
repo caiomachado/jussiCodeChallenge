@@ -7,6 +7,10 @@ export const Container = styled.section`
   background-color: black;
   padding: 136px 24px;
 
+  @media (max-width: 600px) {
+    padding: 64px 24px;
+  }
+
   .newsletter-wrapper {
     display: flex;
     justify-content: center;
@@ -104,9 +108,5 @@ export const Container = styled.section`
         }
       }
     }
-  }
-
-  @media (max-width: 600px) {
-    padding: 64px 24px;
   }
 `;

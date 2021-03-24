@@ -6,6 +6,10 @@ export const Container = styled.section`
   align-items: center;
   padding: 64px 24px;
   background: linear-gradient(to right, #FFFFFF 50%, var(--gray) 50%);
+
+  @media (max-width: 1100px) {
+    flex-direction: column;
+  }
   
   .about-company {
     max-width: 241px;
@@ -68,9 +72,5 @@ export const Container = styled.section`
         height: auto;
       }
     }
-  }
-
-  @media (max-width: 1100px) {
-    flex-direction: column;
   }
 `;

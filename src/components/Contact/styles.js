@@ -6,6 +6,10 @@ export const Container = styled.section`
   justify-content: center;
   background-color: var(--pink-jussi);
   padding: 136px 24px;
+  
+  @media (max-width: 600px) {
+    padding: 64px 24px;
+  }
 
   .contact-wrapper {
     text-align: center;
@@ -36,9 +40,5 @@ export const Container = styled.section`
         font-size: 24px;
       }
     }
-  }
-
-  @media (max-width: 600px) {
-    padding: 64px 24px;
   }
 `;
