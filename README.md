@@ -38,7 +38,8 @@ However, if there were more pages, I would create a component folder for each pa
 
 ## Images
 
-![foto_1](https://user-images.githubusercontent.com/67983948/112389961-54e23b80-8cd4-11eb-8a06-43b3a41808aa.png) ![foto_2](https://user-images.githubusercontent.com/67983948/112389985-5ad81c80-8cd4-11eb-8a92-5d57203a65a1.png)
+![foto_1](https://user-images.githubusercontent.com/67983948/112389961-54e23b80-8cd4-11eb-8a06-43b3a41808aa.png)
+![foto_2](https://user-images.githubusercontent.com/67983948/112389985-5ad81c80-8cd4-11eb-8a92-5d57203a65a1.png)
 
 ![foto_3](https://user-images.githubusercontent.com/67983948/112390949-ddada700-8cd5-11eb-852b-73582791eba0.png)
 

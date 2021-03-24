@@ -120,6 +120,11 @@ export const Container = styled.section`
 
         .solution {
           margin-right: 0;
+          align-items: center;
+
+          a {
+            width: 100%;
+          }
         }
       }
       
@@ -131,6 +136,11 @@ export const Container = styled.section`
 
         .solution {
           margin-right: 0;
+          align-items: center;
+
+          a {
+            width: 100%;
+          }
         }
       }
     }

@@ -32,7 +32,7 @@ export const Container = styled.section`
     
     & > *:not(:last-child) {
       margin-right: 0;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
 
     .rotate-small {
