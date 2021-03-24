@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a code challenge for Jüssi in which my challenge was to replicate this landing page using nothing but React.
 
-## Available Scripts
+## Dependencies
 
-In the project directory, you can run:
+For this project I used 3 dependencies:
 
-### `yarn start`
+- Styled Components: I used styled components for the whole page's styling.
+  Styled components not only makes styling easier to do but also it makes the file a lot cleaner and with less code written in it. It is very dynamic and it allows you to interact with props.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React Icons: I used react-icons to get some of the icons used in this page such as the social media ones and the hamburger menu.
+  React Icons is such a simple tool, easy to import and use.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Axios: I used axios to do the API fetch. Axios is very simple to use and to set up.
+  Speaking of API, for this project, I used the GitHub API to get the user's information.
+  Although this information isn't being printed on the screen, it is showed on the console log if successful.
 
-### `yarn test`
+## How to run the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project, you must first install all the dependencies with:
+`npm install` or `yarn` (depends on which one you use).
+Once you have all the dependencies installed, just run `yarn start` or `npm run start`
 
-### `yarn build`
+## Responsive
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is 100% responsive and it works on every screen size from 300px wide to as much as you need.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Obs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Some of the hrefs are referencing to # because there were no other places to redirect it to.
+So theoretically, it is supposed to be redirected to another page when clicked.
 
-### `yarn eject`
+## File's Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For this project specifically I left all the components inside the global components folder.
+However, if there were more pages, I would create a component folder for each page that contains the specific components used in that page. That way I would only leave the global components on the global component folder. In this particular case, I would leave the Footer, Header and Menu component in the global folder.
